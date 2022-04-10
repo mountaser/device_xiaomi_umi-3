@@ -14,7 +14,10 @@ $(call inherit-product, vendor/xiaomi/umi/firmware/firmware.mk)
 
 # Set Boot Animination Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
+
+# Descendant
 TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_USES_AOSP_RECOVERY := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_umi
