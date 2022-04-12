@@ -10,6 +10,9 @@ DEVICE_PATH := device/xiaomi/umi
 -include device/xiaomi/sm8250-common/BoardConfigCommon.mk
 -include vendor/xiaomi/sm8250-common/BoardConfigVendor.mk
 
+# Display
+TARGET_SCREEN_DENSITY := 440
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := umi
 
