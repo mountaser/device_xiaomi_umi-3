@@ -23,7 +23,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 BUILD_FINGERPRINT := Xiaomi/umi/umi:12/SKQ1.211006.001/V13.0.4.0.SJBCNXM:user/release-keys
 
 # Kernel
-TARGET_KERNEL_CONFIG := yarpiin_umi_defconfig
+TARGET_KERNEL_CONFIG := umi_user_defconfig
 
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
